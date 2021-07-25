@@ -59,7 +59,8 @@ class _HomeState extends State<Home> {
                     children: [
                       TextButton(
                         style: TextButton.styleFrom(
-                          fixedSize: Size.fromWidth(320),
+                          fixedSize:
+                              Size.fromWidth(MediaQuery.of(context).size.width),
                           primary: Colors.white,
                           backgroundColor: Color.fromRGBO(255, 255, 255, 0.20),
                           padding: EdgeInsets.symmetric(vertical: 30),
@@ -97,7 +98,8 @@ class _HomeState extends State<Home> {
                     children: [
                       TextButton(
                         style: TextButton.styleFrom(
-                          fixedSize: Size.fromWidth(320),
+                          fixedSize:
+                              Size.fromWidth(MediaQuery.of(context).size.width),
                           primary: Colors.white,
                           backgroundColor: Color.fromRGBO(255, 255, 255, 0.20),
                           padding: EdgeInsets.symmetric(vertical: 30),
@@ -135,7 +137,8 @@ class _HomeState extends State<Home> {
                     children: [
                       TextButton(
                         style: TextButton.styleFrom(
-                          fixedSize: Size.fromWidth(320),
+                          fixedSize:
+                              Size.fromWidth(MediaQuery.of(context).size.width),
                           primary: Colors.white,
                           backgroundColor: Color.fromRGBO(255, 255, 255, 0.20),
                           padding: EdgeInsets.symmetric(vertical: 30),
@@ -173,7 +176,8 @@ class _HomeState extends State<Home> {
                     children: [
                       TextButton(
                         style: TextButton.styleFrom(
-                          fixedSize: Size.fromWidth(320),
+                          fixedSize:
+                              Size.fromWidth(MediaQuery.of(context).size.width),
                           primary: Colors.white,
                           backgroundColor: Color.fromRGBO(255, 255, 255, 0.20),
                           padding: EdgeInsets.symmetric(vertical: 30),
