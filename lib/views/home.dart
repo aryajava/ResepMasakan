@@ -59,8 +59,7 @@ class _HomeState extends State<Home> {
                     children: [
                       TextButton(
                         style: TextButton.styleFrom(
-                          fixedSize:
-                              Size.fromWidth(MediaQuery.of(context).size.width),
+                          fixedSize: Size.fromWidth(320),
                           primary: Colors.white,
                           backgroundColor: Color.fromRGBO(255, 255, 255, 0.20),
                           padding: EdgeInsets.symmetric(vertical: 30),
@@ -98,8 +97,7 @@ class _HomeState extends State<Home> {
                     children: [
                       TextButton(
                         style: TextButton.styleFrom(
-                          fixedSize:
-                              Size.fromWidth(MediaQuery.of(context).size.width),
+                          fixedSize: Size.fromWidth(320),
                           primary: Colors.white,
                           backgroundColor: Color.fromRGBO(255, 255, 255, 0.20),
                           padding: EdgeInsets.symmetric(vertical: 30),
@@ -137,8 +135,7 @@ class _HomeState extends State<Home> {
                     children: [
                       TextButton(
                         style: TextButton.styleFrom(
-                          fixedSize:
-                              Size.fromWidth(MediaQuery.of(context).size.width),
+                          fixedSize: Size.fromWidth(320),
                           primary: Colors.white,
                           backgroundColor: Color.fromRGBO(255, 255, 255, 0.20),
                           padding: EdgeInsets.symmetric(vertical: 30),
@@ -176,8 +173,7 @@ class _HomeState extends State<Home> {
                     children: [
                       TextButton(
                         style: TextButton.styleFrom(
-                          fixedSize:
-                              Size.fromWidth(MediaQuery.of(context).size.width),
+                          fixedSize: Size.fromWidth(320),
                           primary: Colors.white,
                           backgroundColor: Color.fromRGBO(255, 255, 255, 0.20),
                           padding: EdgeInsets.symmetric(vertical: 30),
@@ -213,6 +209,7 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
+      drawerEnableOpenDragGesture: false,
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
@@ -237,6 +234,7 @@ class _HomeState extends State<Home> {
               onTap: () {
                 // Update the state of the app.
                 // ...
+                Navigator.pop(context);
               },
             ),
             ListTile(
@@ -251,6 +249,7 @@ class _HomeState extends State<Home> {
               onTap: () {
                 // Update the state of the app.
                 // ...
+                Navigator.pop(context);
               },
             ),
           ],

@@ -37,7 +37,9 @@ class _ResepAyamState extends State<ResepAyam> {
                       'assets/images/logo_resep_masakan_ayam.png',
                       height: 90,
                     ),
-                    Padding(padding: EdgeInsets.symmetric(vertical: 30)),
+                    const SizedBox(
+                      height: 40,
+                    ),
                     TextButton(
                       style: TextButton.styleFrom(
                         primary: Colors.white,

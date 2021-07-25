@@ -37,7 +37,9 @@ class _ResepTelurState extends State<ResepTelur> {
                       'assets/images/logo_resep_masakan_telur.png',
                       height: 90,
                     ),
-                    Padding(padding: EdgeInsets.symmetric(vertical: 30)),
+                    const SizedBox(
+                      height: 40,
+                    ),
                     TextButton(
                       style: TextButton.styleFrom(
                         primary: Colors.white,
